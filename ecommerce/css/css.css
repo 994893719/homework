@@ -1,0 +1,117 @@
+.sp{background: url("../img/spirit.png") no-repeat;}
+.tel{width: 19px; height: 28px; background-position:-19px -510px;}
+.wx{background-position: -13px -479px;width: 32px; height: 23px;}
+.can{width: 23px;height: 14px;background-position:-15px -434px;}
+.usa{width: 23px;height: 14px;background-position: -16px -458px;}
+.ecommerce{width: 1600px;height: 1800px;margin: 0 auto;position: relative;}
+.tw{width: 34px;height: 34px;background-position: -9px -227px;}
+.fb{width: 34px;height: 34px;background-position:-9px -188px;}
+.in{width: 34px;height: 34px;background-position:-9px -300px;}
+.ema{width: 34px;height: 34px;background-position:-9px -265px;}
+.lbtn{width: 40px;height: 43px;background-position:-8px -339px;}
+.rbtn{width: 40px;height: 43px;background-position:-9px -382px;}
+.safe{width: 60px;height: 42px;background-position: -2px -133px;padding-top:12px;padding-left: 50px;margin-top: 4px;margin-left: 320px;}
+.box{width: 46px;height: 30px; background-position: -5px -93px;margin-top: 8px;padding-top: 8px;padding-left: 42px;margin-left: 10px;}
+.fl{float: left;}
+/* head */
+.head{width: 1600px;height:173px;}
+.hdtop{width:1600px;height: 30px;background: url("../img/head1.png") repeat-x;}
+.hdtop ul{width:1300px;height: 30px;margin-left: 320px;}
+.hdtop ul li{float: left;padding-left: 10px;line-height: 30px;height: 30px;}
+.hdtop ul li span{margin-left: 100px;padding-left:20px;color: white;}
+.hdtop ul li a{font-size: 16px;color: white;}
+.hdtop ul li b{display: block;margin-top: 10px;margin-left: 10px;}
+.hdtop ul li a.hd{margin-left: 33px;padding-left: 32px;}
+.hdtop ul li a:hover{color: #ddd;}
+.hdlog{width: 1600px;height: 99px;background: url("../img/head.png") no-repeat;position: relative;}
+.hdlog a{position: absolute;top:62px;left: 445px;opacity: 0;filter:alpha(opacity=0);}
+.hdlog input.text{position: absolute;top:33px;right: 360px;width: 230px;height: 29px;border: none;background:url("../img/button.png") no-repeat;}
+.hdlog input.go{position: absolute;right: 320px;top:35px;opacity: 0;filter:alpha(opacity=0);cursor: pointer;}
+.menu{background: url("../img/menubg.png") repeat-x; width: 1600px;height: 44px;position: relative;}
+.menu ul{margin-left: 310px;}
+.menu ul li{float: left;margin-top: 6px;margin-left: 20px;}
+.menu ul li a{font-size: 16px;color: white;display: block;height: 28px;line-height: 28px;padding: 0 0 0 2px;}
+.menu li a b {float: left;display: block;padding: 0 6px 0 4px;}
+.menu ul li a:hover{background: url("../img/lhover.png") no-repeat left top;}
+.menu ul li a:hover b{background: url("../img/rhover.png") no-repeat right top;}
+/*main*/
+.main{background: url("../img/mainbg.png") repeat-x;height: 1324px;width: 1600px;}
+.main .banner{width: 1000px;height: 310px;padding-top: 20px;margin: 0 auto;}
+.main .bd{background: url("../img/main.png") no-repeat;width: 1000px;height: 990px;margin: 0 auto;}
+.main .left{width:258px; height: 990px;float: left;}
+.main .left h1{padding-left: 62px;padding-top: 35px;color: white;}
+.main .left ul{padding-top: 20px;padding-left: 45px;width: 200px;}
+.main .left ul li{padding-top: 5px;height: 25px;}
+.main .left ul li a{font-size: 14px;}
+.main .left ul li a:hover{color:#b61809;}
+.main .left .left2{position: relative;}
+.main .left .left2 input{position: absolute;top:93px;left: 46px;height: 22px;width:174px;border: none;}
+.main .left .left2 a.abtn{position: absolute;top:128px;left: 101px;/*opacity: 0;*/color: white;}
+.main .left .left2 ul{position: absolute;top:152px;left: 5px;}
+.main .left .left2 ul li{padding-top: 6px;height: 38px;}
+.main .left .left2 ul li b{display: block;float:left;}
+.main .right{width:742px; height: 990px;float: left;}
+.main .right .top{width: 742px;height:100px;position: relative;}
+.main .right .top b{font-size: 14px;color: #ccc;position: absolute;left: 440px;top:32px;}
+.main .right .top span{position: absolute;left: 570px;top:30px;}
+.main .right .top span a{font-size:14px;}
+.main .right .top a:hover{color: #b20e00;}
+.main .right .top button{position: absolute;cursor: pointer;height: 19px;width: 19px;opacity: 0;filter:alpha(opacity=0);}
+.main .right .top button.btn1{top:31px;left:145px;}
+.main .right .top button.btn2{top:31px;left:266px;}
+.main .right .top button.btn3{top:31px;left:385px;}
+.main .right .top ul{padding-left: 20px;}
+.main .right .top ul li{margin-top: 6px;}
+.main .right .top .tl{float: left;width: 107px;height: 100px;border: 1px solid #ccc;position: absolute;top:49px;left:55px;z-index: 2;display: none;}
+.main .right .top .tm{float: left;width: 107px;height: 100px;border: 1px solid #ccc;position: absolute;left:176px;top:49px;z-index: 2;display: none;}
+.main .right .top .tr{float: left;width: 107px;height: 100px;border: 1px solid #ccc;position: absolute;top:49px;left:295px;z-index: 2;display: none;}
+.main .right .mid{width:742px; height: 622px;position: relative;}
+.main .right .mid .pro{width:742px; height: 550px;}
+.main .right .mid .pro ul.cur{position: absolute;opacity: 1;filter:alpha(opacity=100);}
+.main .right .mid .pro ul{position: absolute;opacity: 0;filter:alpha(opacity=0);}
+.main .right .mid .pro ul li{float: left;width: 170px;height: 190px;}
+.main .right .mid .pro ul li a span{color:#b20e00;}
+.main .right .mid .list{width: 742px;height: 72px;}
+.main .right .mid .list ul{height: 40px;margin-right: 45px;margin-left: 230px;position: absolute;}
+.main .right .mid .list ul.num{position: absolute;}
+.main .right .mid .list ul.num2{position: absolute;left: 100px;}
+.main .right .mid .list ul li{float: left;width: 15px; height: 20px;padding-left: 5px;}
+.main .right .mid .list ul li.next{width: 60px; height: 20px;}
+.main .right .mid .list ul li.last{width: 60px; height: 20px;}
+.main .right .mid .list ul li.cur{background-color:#b20e00;}
+.main .right .mid .list ul li a{color:#b20e00;text-align: center;}
+.main .right .mid .list ul li.cur a{color: white;}
+.main .right .bottom{width:742px; height:268px;position: relative;}
+.main .right .bottom span{display: block;position: absolute;top:115px;z-index: 10;cursor: pointer;}
+.main .right .bottom span.lbtn{position: absolute;left:7px;}
+.main .right .bottom span.rbtn{position: absolute;right:26px;}
+.main .right .bottom .pic{width:512px;height: 234px;position:relative;left:105px;overflow: hidden;}
+.main .right .bottom .pic ul{width:1010px;height: 151px;position: absolute;top:80px;}
+.main .right .bottom .pic li{float: left;width: 158px;height:146px;padding-left:10px; }
+.main .right .bottom .pic li a{font-size: 12px;}
+/*foot*/
+.foot{width: 1600px;height: 303px;}
+.foot .ftsub{background: url("../img/ftSub.png") repeat-x;height: 61px;position: relative;}
+.foot .ftsub span{float: left;color:#cbcbcb;width: 300px;}
+.foot .ftsub span a{color:#cbcbcb;}
+.foot .ftsub img{margin-top: 12px;}
+.foot .ftsub input.text2{position: absolute;top:12px;right:328px;background:url("../img/button.png") no-repeat;width: 230px;height: 29px;border: none;}
+.foot .ftsub input.go2{position: absolute;top:15px;right: 285px;opacity: 0;filter:alpha(opacity=0);cursor: pointer;}
+.foot .ftbottom{background: url("../img/ftBottom.png") repeat-x;height: 242px;padding-left:320px;}
+.foot .ftbottom h1{font-weight: 500;color: white;}
+.foot .ftbottom .cate{margin-left: 80px;}
+.foot .ftbottom .info{margin-left: 80px;}
+.foot .ftbottom .net{margin-left: 80px;}
+.foot .ftbottom .tact{margin-left: 80px;}
+.foot .ftbottom ul li a{font-size: 14px;color: #cfcfcf;}
+.foot .ftbottom ul li a:hover{font-size: 14px;color:#da9201;}
+/*登录框*/
+.log{background: url("../img/log.png") no-repeat;width: 500px;height: 530px;position: fixed;left: 40%;top:40%;z-index: 999;display: none;}
+.log input.user{position:absolute;top:195px;left:123px;width: 261px;height: 24px;border: none;}
+.log input.pwd{position:absolute;top:241px;left:123px;width: 261px;height: 24px;border: none;}
+.log input.sub{position:absolute;top:295px;left:313px;cursor: pointer;width: 63px;height: 23px;opacity: 0;filter:alpha(opacity=0);}
+.log button{position:absolute;top:152px;left:354px;cursor: pointer;opacity: 0;filter:alpha(opacity=0);}
+.log input.che{position: absolute;top:296px;left:118px;width:15px;height:15px;}
+.block{position: fixed;width: 100%;height: 100%;background-color: #aaa;z-index: 99;opacity: 0.5;filter:alpha(opacity=0.5);display: none;}
+
+

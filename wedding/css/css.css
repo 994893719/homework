@@ -1,0 +1,1044 @@
+/*精灵 */
+.sp {
+    background: url("../img/spirit.png") no-repeat;
+}
+
+.sp2 {
+    background: url("../img/sp2.png") no-repeat;
+}
+
+.sp3 {
+    background: url("../img/sp3.png") no-repeat;
+}
+
+.b1 {
+    background-position: 0 0;
+}
+
+.b2 {
+    background-position: -72px 0;
+}
+
+.b3 {
+    background-position: -144px 0;
+}
+
+.b4 {
+    background-position: -216px 0;
+}
+
+.b5 {
+    background-position: -288px 0;
+}
+
+.b6 {
+    background-position: -360px 0;
+}
+
+.b7 {
+    background-position: -432px 0;
+}
+
+.b8 {
+    background-position: -504px 0;
+}
+
+.b9 {
+    background-position: -576px 0;
+}
+
+.b0 {
+    background-position: -648px 0;
+}
+
+.e1 {
+    background-position: 0 0;
+}
+
+.e2 {
+    background-position: -248px 0;
+}
+
+.e3 {
+    background-position: -496px 0;
+}
+
+.e4 {
+    background-position: -744px 0;
+}
+
+.m1 {
+    background-position: 0 0;
+}
+
+.m2 {
+    background-position: -282px 0;
+}
+
+.m3 {
+    background-position: -574px 0;
+}
+
+/* wrap */
+.wrap {
+    background: url("../img/bg.png") repeat-x;
+    margin: 0 auto;
+}
+
+/* head */
+.header {
+    background: url("../img/wrapbg.png") no-repeat;
+    margin: 0 auto;
+    width: 990px;
+    height: 26px;
+    position: relative;
+}
+
+.header ol p {
+    float: left;
+}
+
+.header ol p span b {
+    font-size: 12px;
+    color: #000;
+    line-height: 26px;
+}
+
+.header ol p span a {
+    color: #797979;
+    font-size: 12px;
+}
+
+.header ol p span a:hover {
+    color: blueviolet;
+}
+
+.header ol {
+    height: 26px;
+}
+
+.header ol li.home {
+    margin-left: 237px;
+    width: 77px;
+}
+
+.header ol li {
+    float: left;
+    width: 56px;
+    position: relative;
+}
+
+.header ol li a {
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.header ol li a:hover {
+    color: red;
+}
+
+.header ol li.mytb {
+    width: 95px;
+}
+
+.header ol li.mytb p {
+    display: none;
+    width: 50px;
+    position: absolute;
+    z-index: 2;
+}
+
+.header ol li.mytb p a {
+    color: #797979;
+}
+
+.header ol li.shopcar {
+    width: 91px;
+}
+
+.header ol li.shopcar a b {
+    color: red;
+}
+
+.header ol li.collect {
+    width: 86px;
+}
+
+.header ol li.collect p {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+}
+
+.header ol li.collect p a {
+    color: #797979;
+}
+
+.header ol li.search p {
+    display: none;
+    width: 50px;
+    position: absolute;
+    right: 14px;
+    z-index: 2;
+}
+
+.header ol li.search p a {
+    color: #797979;
+}
+
+.header ol li.gate p {
+    display: none;
+    width: 50px;
+    position: absolute;
+    z-index: 2;
+}
+
+.header ol li.gate p a {
+    color: #797979;
+}
+
+/* 导航 */
+.sub {
+    clear: both;
+    background: url("../img/subbg.png") no-repeat;
+    width: 990px;
+    height: 104px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sub .mark {
+    position: absolute;
+    top: 40px;
+    left: 214px;
+    height: 17px;
+    width: 91px;
+}
+
+.sub .mark p {
+    position: absolute;
+    text-align: center;
+    width: 87px;
+    background-color: white;
+    border: 1px solid black;
+    top: 16px;
+    z-index: 3;
+    display: none;
+}
+
+.sub p a {
+    font-size: 12px
+}
+
+.sub span {
+    margin-left: 401px;
+    float: left;
+    margin-top: 11px;
+}
+
+.sub span a {
+    width: 55px;
+    height: 20px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    color: black;
+    line-height: 18px;
+}
+
+.sub span a.cur {
+    background: url("../img/sbtnh.png") no-repeat;
+    color: white;
+}
+
+.sub input {
+    width: 451px;
+    height: 20px;
+    border: none;
+    position: absolute;
+    left: 426px;
+    top: 34px;
+}
+
+.sub input:focus {
+    outline: none;
+}
+
+.sub ul {
+    position: absolute;
+    top: 78px;
+    z-index: 2;
+}
+
+.sub ul li {
+    float: left;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.sub ul li.cur {
+    background: url("../img/navh.png") no-repeat;
+    font-weight: 700;
+    height: 30px;
+}
+
+.sub ul li a {
+    float: left;
+    width: 70px;
+    height: 30px;
+}
+
+/* 菜单 */
+.nav {
+    background: url("../img/navbg.png") repeat-x;
+    height: 69px;
+    margin-top: 2px;
+}
+
+.navb1 {
+    background: url("../img/nav.png") no-repeat;
+    height: 69px;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.navb2 {
+    background: url("../img/nav.png") no-repeat;
+    height: 69px;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.navb3 {
+    background: url("../img/nav.png") no-repeat;
+    height: 69px;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.navb4 {
+    background: url("../img/nav.png") no-repeat;
+    height: 69px;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.navb5 {
+    background: url("../img/nav.png") no-repeat;
+    height: 69px;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.navb6 {
+    background: url("../img/nav.png") no-repeat;
+    height: 69px;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.navb7 {
+    background: url("../img/nav.png") no-repeat;
+    height: 69px;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.navb8 {
+    background: url("../img/nav.png") no-repeat;
+    height: 69px;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.navb9 {
+    background: url("../img/nav.png") no-repeat;
+    height: 69px;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.nav ul {
+    position: absolute;
+    top: 5px;
+    height: 21px;
+    width: 620px;
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+    line-height: 21px;
+    height: 21px;
+    width: 56px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.nav ul li.cur {
+    background-color: #ed4a69;
+}
+
+.nav ul li.cur a {
+    color: #fff;
+}
+
+.nav ul li.tshirt {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.nav ul li.sleeve {
+    width: 87px;
+}
+
+.nav ul li.shirt, .nav ul li.shorts {
+    margin-left: 6px;
+}
+
+.nav ul li.catalogue {
+    width: 80px;
+}
+
+.nav ul li a {
+    font-weight: 600;
+}
+
+.nav ol {
+    float: right;
+    margin-top: 10px;
+    margin-right: 11px;
+}
+
+.nav ol li {
+    float: left;
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+.nav ol li a:hover {
+    color: orange;
+}
+
+.nav p {
+    clear: both;
+    font-size: 14px;
+    color: #606060;
+    position: absolute;
+    left: 15px;
+    top: 42px;
+}
+
+.nav input {
+    position: absolute;
+    left: 93px;
+    top: 41px;
+    border: none;
+    height: 20px;
+    width: 169px;
+}
+
+.nav input:focus {
+    outline: none;
+}
+
+.nav b a {
+    font-size: 12px;
+    color: #ed4a69;
+    position: absolute;
+    left: 279px;
+    top: 43px;
+}
+
+.nav span {
+    position: absolute;
+    left: 330px;
+    top: 40px;
+}
+
+.nav span a {
+    font-size: 12px;
+}
+
+/* 主体 */
+.main {
+    width: 991px;
+    height: 750px;
+    margin: 9px auto;
+}
+
+.main .mleft {
+    width: 190px;
+    height: 749px;
+    background: url("../img/mleft.png") no-repeat;
+    padding-top: 43px;
+    float: left;
+}
+
+.main .mleft ul {
+    width: 186px;
+    height: 82px;
+    padding-top: 116px;
+    margin-left: 7px;
+}
+
+.main .mleft ul.ul3 {
+    padding-top: 132px;
+}
+
+.main .mleft ul li {
+    width: 78px;
+    height: 30px;
+    float: left;
+    margin-left: 15px;
+}
+
+.main .mleft ul li a {
+    font-size: 12px;
+    color: #000000;
+}
+
+/* banner */
+.banner {
+    float: left;
+    position: relative;
+}
+
+.banner ul {
+    margin-left: 10px;
+    margin-top: 11px;
+}
+
+.banner ul li {
+
+}
+
+.banner ul li img {
+    position: absolute;
+}
+
+.banner ul.list {
+    position: absolute;
+    top: 266px;
+    left: 424px;
+    z-index: 2;
+    width: 120px;
+    height: 22px;
+}
+
+.banner ul.list li {
+    float: left;
+    margin-left: 1px;
+    background-color: #ffffff;
+    height: 22px;
+    width: 22px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.banner ul.list li.cur {
+    background-color: #000;
+}
+
+.banner ul.list li.cur a {
+    color: #ffffff;
+}
+
+.banner ul.list li a {
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.mright {
+    float: right;
+    background: url("../img/mright.png") no-repeat;
+    width: 238px;
+    height: 291px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.mright p {
+    position: absolute;
+    top: 59px;
+    left: 150px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.mright span {
+    position: absolute;
+    font-size: 12px;
+    color: #797979;
+}
+
+.mright span.time {
+    left: 96px;
+    top: 65px;
+}
+
+.mright del {
+    font-size: 12px;
+    color: #797979;
+    position: absolute;
+    left: 148px;
+    top: 124px;
+}
+
+.mright span.price {
+    left: 148px;
+    top: 164px;
+}
+
+.mright span.price b {
+    color: #ed4a69;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mright h1 {
+    position: absolute;
+    top: 59px;
+    left: 9px;
+}
+
+.mright a {
+    position: absolute;
+    top: 89px;
+    left: 148px;
+    font-size: 12px;
+    color: black;
+}
+
+.mright img {
+    position: absolute;
+    left: 13px;
+    top: 91px;
+}
+
+.mright .fix {
+    position: absolute;
+    left: 300px;
+}
+
+/* 展示 */
+.show {
+    background: url("../img/show.png") no-repeat;
+    width: 791px;
+    height: 423px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.show ul {
+    margin-top: 46px;
+}
+
+.show ul li {
+    float: left;
+    margin-left: 2px;
+    width: 194px;
+    height: 334px;
+}
+
+.show ul li img {
+    margin-bottom: 10px;
+}
+
+.show ul li a {
+    font-size: 12px;
+    color: black;
+    font-weight: 700;
+}
+
+.show p {
+    font-size: 12px;
+    color: #797979;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.show p em {
+    font-size: 12px;
+    color: black;
+}
+
+/* 货物 */
+.goods {
+    background: url("../img/goods.png") no-repeat;
+    margin: 0 auto;
+    width: 990px;
+    height: 512px;
+}
+
+.goods p {
+    margin-left: 423px;
+    padding-top: 5px;
+    width: 568px;
+    height: 21px;
+}
+
+.goods p span {
+    text-align: center;
+    line-height: 21px;
+    float: left;
+    width: 43px;
+}
+
+.goods p span.bear {
+    width: 53px;
+}
+
+.goods p span.deepv {
+    width: 36px;
+}
+
+.goods p span.more {
+    margin-left: 19px;
+}
+
+.goods p span a {
+    font-size: 12px;
+}
+
+.goods ul {
+    margin-top: 8px;
+    width: 990px;
+    height: 472px;
+}
+
+.goods ul li {
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+    position: relative;
+}
+
+.goods ul li.l1 {
+    margin-left: 0px;
+}
+
+.goods em , .dress em ,.sam em{
+    display: none;
+    width: 84px;
+    height: 47px;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    z-index: 10;
+    background:url("../img/prize.png") no-repeat;
+}
+
+/* 品牌 */
+.brand {
+    background: url("../img/brand.png") no-repeat;
+    width: 992px;
+    height: 113px;
+    margin: 15px auto;
+}
+
+.brand ul {
+    width: 960px;
+    height: 91px;
+    padding-top: 11px;
+    padding-left: 15px;
+}
+
+.brand ul li {
+    float: left;
+    width: 71px;
+    height: 91px;
+    margin-left: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.brand ul li a {
+    font-size: 12px;
+}
+
+.brand ul li img {
+    width: 71px;
+    height: 71px;
+}
+
+/* 货物2 */
+.dress {
+    background: url("../img/dress.png") no-repeat;
+    margin: 0 auto;
+    width: 991px;
+    height: 566px;
+}
+
+.dress p {
+    margin-left: 486px;
+    padding-top: 9px;
+    width: 568px;
+    height: 21px;
+}
+
+.dress p span {
+    text-align: center;
+    line-height: 21px;
+    float: left;
+    width: 45px;
+}
+
+.dress p span.bear {
+    width: 57px;
+}
+
+.dress p span.deepv {
+    width: 36px;
+}
+
+.dress p span.more {
+    margin-left: 19px;
+}
+
+.dress p span a {
+    font-size: 12px;
+}
+
+.dress2 {
+    width: 996px;
+    height: 534px;
+}
+
+.dress2 ul {
+    margin-top: 8px;
+    float: left;
+}
+
+ul.ul1 {
+    width: 399px;
+    height: 528px;
+}
+
+ul.ul2 {
+    width: 595px;
+    margin-left: 2px;
+}
+
+ul.ul2 li {
+    margin-left: 2px;
+}
+
+.dress2 ul li {
+    float: left;
+    position: relative;
+}
+
+.dress span.more a {
+    color: #ffffff;
+}
+
+.opacity_bg {
+    background: #000;
+    opacity: 0.4;
+}
+
+ul li i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 货物3 */
+.sam {
+    background: url("../img/sam.png") no-repeat;
+    margin: 0 auto;
+    width: 996px;
+    height: 566px;
+}
+
+.sam p {
+    margin-left: 530px;
+    padding-top: 9px;
+    width: 568px;
+    height: 21px;
+}
+
+.sam p span {
+    text-align: center;
+    line-height: 21px;
+    float: left;
+    width: 45px;
+}
+
+.sam p span.bear {
+    width: 58px;
+}
+
+.sam p span.seq {
+    width: 69px;
+}
+
+.sam p span.more {
+    margin-left: 19px;
+}
+
+.sam p span a {
+    font-size: 12px;
+}
+
+.sam ul {
+    margin-top: 8px;
+    float: left;
+    height: 525px;
+}
+
+.sam ul li {
+    float: left;
+    position: relative;
+    margin-left: 2px;
+}
+
+.sam ul.ul3 li {
+    float: left;
+    position: relative;
+}
+
+.sam .ul1 {
+    width: 190px;
+}
+
+.sam .ul2 {
+    width: 408px;
+    margin-left: 2px;
+}
+
+.sam .ul3 {
+    width: 392px;
+    margin-left: 2px;
+}
+
+.sort {
+    background: url("../img/sort.png") no-repeat;
+    width: 990px;
+    height: 132px;
+    margin: 0 auto;
+}
+
+.sort ul {
+    height: 130px;
+    padding-top: 1px;
+}
+
+.sort ul li {
+    width: 246px;
+    height: 130px;
+    float: left;
+    margin-left: 1px;
+}
+
+.sort ul li a {
+}
+
+.message {
+    background: url("../img/message.png") no-repeat;
+    width: 990px;
+    height: 295px;
+    margin: 15px auto;
+    padding-top: 29px;
+}
+
+.message ol {
+    height: 98px;
+    margin-left: -2px;
+}
+
+.message ol li {
+    float: left;
+    width: 290px;
+    height: 21px;
+    margin-left: 29px;
+    text-align: center;
+    padding-top: 78px;
+}
+
+.message ol li a {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.message h1 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.message ul {
+    width: 216px;
+    height: 152px;
+    margin-top: 26px;
+    margin-left: 22px;
+    float: left;
+}
+
+.message ul li {
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+.message ul li a {
+}
+
+.message ul.ul3 {
+    margin-left: 31px;
+    width: 236px;
+}
+
+.footer {
+    background: url("../img/footer.png") no-repeat;
+    width: 991px;
+    height: 76px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer p a {
+    color: #3366cc
+}
+
+.footer p.p1 {
+    width: 752px;
+    margin: 6px auto;
+}
+
+.footer p.p2 {
+    width: 866px;
+    margin: 6px auto;
+}
+
+.footer p.p3 {
+    width: 228px;
+    margin: 6px auto;
+}
+
